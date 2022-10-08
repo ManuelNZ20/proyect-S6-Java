@@ -8,7 +8,7 @@ public class Employee extends Person {
 
     private Date yearIncorporation;
     private short officeNumber;
-    private static final SimpleDateFormat formatt = new SimpleDateFormat("dd/MMM/aa");
+    public static final SimpleDateFormat formatt = new SimpleDateFormat("dd/mm/yyyy");
 
     public Employee(String yearIncorporation, short officeNumber,String dni, String name, String lastName, String civilStatus) {
         super(dni,name, lastName, civilStatus);

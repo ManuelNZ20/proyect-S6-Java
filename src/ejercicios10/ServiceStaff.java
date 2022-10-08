@@ -1,23 +1,23 @@
 package ejercicios10;
 
 public class ServiceStaff extends Employee{
-    private String seccion;
+    private String section;
 
-    public ServiceStaff(String seccion, String yearIncorporation, short officeNumber, String dni,String name, String lastName, String civilStatus) {
+    public ServiceStaff(String section, String yearIncorporation, short officeNumber, String dni,String name, String lastName, String civilStatus) {
         super(yearIncorporation, officeNumber,dni, name, lastName, civilStatus);
-        this.seccion = seccion;
+        this.section = section;
     }
 
     public ServiceStaff()
     {
         this(null, null, (short)0, null, null, null, null);
     }
-    public String getSeccion() {
-        return seccion;
+    public String getSection() {
+        return section;
     }
 
-    public void setSeccion(String seccion) {
-        this.seccion = seccion;
+    public void setSection(String section) {
+        this.section = section;
     }
     
     

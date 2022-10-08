@@ -39,7 +39,7 @@ public class Student extends Person {
     public void removeCourse(Course course) {
         if (totalCredit > 0) {
             totalCredit -= course.getCredits();
-            courses.remove(course);
+            courses.remove(course.getIdCourse());
         }
     }
 
